@@ -61,7 +61,7 @@ df_absenteismo, df_turnover, df_desligados = carregar_dados()
 # TESTE DO PASSO 1 (Visualizando se deu certo)
 # ==========================================
 st.title("🚧 Teste da Fase 1 - Dados Unificados")
-st.write("Se você estiver vendo as tabelas abaixo sem erro, a importação foi um sucesso!")
+
 
 st.subheader("Base de Dados de Desligamentos (Unificados)")
 st.dataframe(df_desligados, height=300) # Mostra a tabela completa com barra de rolagem vertical
